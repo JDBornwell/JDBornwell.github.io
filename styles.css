@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/*
+
+
+   Final Project
+   Author: Josh Welborn
+   Date:   07/25/2021
+   Filename: styles.css
+
+*/
+body {
+  background-image: url(bg.jpg);
+    margin: auto;
+    background-size: cover;
+
+}
+.nav-tabs {
+  background-color: black;
+  width:65%;
+  margin: auto;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.nav-item a {
+  color: white;
+}
+.intro {
+  width:65%;
+  margin: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 35px;
+}
+
+.cards{
+  padding-bottom: 20px;
+  width: 65%;
+  margin: auto;
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 15px;
+  font-family: 'Cormorant Garamond', serif;
+
+}
+.cards img{
+  max-height: 350px;
+}
+.card {
+  background-color: black;
+  color: white;
+}
+.accordion {
+  width: 65%;
+  background-color: black;
+  color: white;
+  margin: auto;
+  font-family: 'Cormorant Garamond', serif;
+}
+.accordion-item {
+  background-color: black;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+}
+.accordion-header {
+  background-color: black;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+}
+.accordion-button {
+  background-color: black;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+}
+.accordion-body {
+  background-color: black;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+}
+.experience{
+  width:65%;
+  margin: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+.references{
+  width:65%;
+  margin: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  padding-top: 10px;
+}
+.cards2{
+  padding-bottom: 20px;
+  width: 65%;
+  margin: auto;
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 15px;
+  font-family: 'Cormorant Garamond', serif;
+}
+.card2 {
+  background-color: black;
+  color: white;
+}
+footer {
+  background-color: black;
+}
