@@ -9,12 +9,15 @@
    Filename: styles.css
 
 */
+
+/* Main Styles */
 body {
   background-image: url(bg.jpg);
     margin: auto;
     background-size: cover;
 
 }
+/* Nav Styles */
 .nav-tabs {
   background-color: black;
   width:65%;
@@ -25,6 +28,7 @@ body {
 .nav-item a {
   color: white;
 }
+/* Content Styles */
 .intro {
   width:65%;
   margin: auto;
@@ -111,6 +115,7 @@ body {
   background-color: black;
   color: white;
 }
+/* Footer Styles */
 footer {
   background-color: black;
 }
